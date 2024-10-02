@@ -1,0 +1,79 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+/db.sqlite3-journal
+
+# Media and static files
+media/
+staticfiles/
+static/
+
+# Environment variables and virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+*venv/
+*.env
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Virtual environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Test coverage
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# MySQL / PostgreSQL database dumps
+*.sql
+*.sqlite3
+
+# Security related
+*.pem
